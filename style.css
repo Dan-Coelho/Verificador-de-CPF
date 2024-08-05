@@ -44,18 +44,19 @@ div {
   margin-top: 2rem;
   font-size: 2rem;
   color: white;
+  border: none;
+  padding: 1.3rem;
+  border-radius: 0.5rem;
 }
 .falso {
   background-color: red;
-  border: none;
-  padding: 1.3rem;
-  border-radius: 0.5rem;
 }
 .verdadeiro {
   background-color: green;
-  border: none;
-  padding: 1.3rem;
-  border-radius: 0.5rem;
+}
+.fiscal {
+  background-color: black;
+  font-size: 1.8rem;
 }
 @media (max-width: 600px) {
   #form {
